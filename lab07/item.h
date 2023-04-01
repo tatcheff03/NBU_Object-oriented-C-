@@ -7,7 +7,7 @@
 class Item {
 public:
     Item(Product product, int qty);
-    double subtotal();
+    double total();
 private:
     Product product;
     int qty;

@@ -8,6 +8,6 @@ Item::Item(Product (product), int qty) :product(product){
     this->qty=qty;
 }
 
-double Item::subtotal(){
+double Item::total(){
     return product.getcena()*qty;
 }
