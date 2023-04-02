@@ -1,18 +1,25 @@
 #include "product.h"
 
-Product::Product(string ime,double cena){
+Product::Product(string ime, double cena)
+{
 
-this-> ime=ime;
-if (cena<0){
-cena=0;
-
+    this->ime = ime;
+    if (cena < 0)
+    {
+        this->cena = 0;
+    }
+    else
+    {
+        this->cena = cena;
+    }
 }
-}
-std::string Product::getIme(){
-return ime;
 
+std::string Product::getIme() const
+{
+    return ime;
 }
 
-double Product::getcena() {
+double Product::getcena() const
+{
     return cena;
 }

@@ -15,7 +15,7 @@ public:
     double total();
     void print();
     vector<Item> produkti;
-  private:
+  
     
 };
  

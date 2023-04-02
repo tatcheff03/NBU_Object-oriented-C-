@@ -1,7 +1,7 @@
 #include <iostream>
 #include "item.h"
 
-Item::Item(Product(product), int qty) : product(product), qty(qty)
+Item::Item(Product product, int qty) : product(product), qty(qty)
 {
     if (qty < 0)
     {
@@ -16,5 +16,5 @@ double Item::total()
 
 void Item::print()
 {
-    std::cout << product.getIme() << std::endl;
+   std::cout << qty << "x " << product.getIme()<<" - " << product.getcena()<<" lv"<< std::endl;
 }
