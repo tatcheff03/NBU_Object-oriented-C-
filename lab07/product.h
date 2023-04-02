@@ -6,6 +6,7 @@ class Product {
 
 public:
 Product(string ime, double cena);
+std::string getIme();
 double getcena();
 
 private:

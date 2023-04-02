@@ -1,5 +1,5 @@
-#ifndef LAB1_INVOICE_H
-#define LAB1_INVOICE_H
+#ifndef LAB7_INVOICE_H
+#define LAB7_INVOICE_H
 
 
 #include <vector>
@@ -10,10 +10,14 @@ using std::vector;
 
 class Invoice {
 public:
+    Invoice();
     void add(Product product, int qty);
-    double subtotal();
+    double total();
+    void print();
+    
+  private:
     vector<Item> produkti;
 };
  
 
- #endif //LAB1_INVOICE_H
+ #endif //LAB7_INVOICE_H

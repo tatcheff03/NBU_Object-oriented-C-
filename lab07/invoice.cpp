@@ -1,4 +1,5 @@
 #include "invoice.h"
+Invoice::Invoice(){}
 
 void Invoice::add(Product product, int qty)
 {
@@ -7,12 +8,20 @@ void Invoice::add(Product product, int qty)
 
 
 
-double Invoice::subtotal()
+double Invoice::total()
 {
 double sum=0;
-for (auto item:produkti){
-    sum+=item.subtotal();
+for  (auto item:produkti){
+    sum+=item.total();
+  
 }
 return sum;
 
 }
+void Invoice::print(){
+    for(auto item:produkti){
+        item.print();
+
+    }
+    
+    }
