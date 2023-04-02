@@ -14,9 +14,9 @@ public:
     void add(Product product, int qty);
     double total();
     void print();
-    
-  private:
     vector<Item> produkti;
+  private:
+    
 };
  
 

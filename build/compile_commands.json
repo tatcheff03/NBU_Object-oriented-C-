@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/workspaces/NBU_Object-oriented-C-/build",
+  "command": "/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/prog.dir/source/invoice.cpp.o -c /workspaces/NBU_Object-oriented-C-/lab07/source/invoice.cpp",
+  "file": "/workspaces/NBU_Object-oriented-C-/lab07/source/invoice.cpp"
+},
+{
+  "directory": "/workspaces/NBU_Object-oriented-C-/build",
+  "command": "/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/prog.dir/source/item.cpp.o -c /workspaces/NBU_Object-oriented-C-/lab07/source/item.cpp",
+  "file": "/workspaces/NBU_Object-oriented-C-/lab07/source/item.cpp"
+},
+{
+  "directory": "/workspaces/NBU_Object-oriented-C-/build",
+  "command": "/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/prog.dir/source/main.cpp.o -c /workspaces/NBU_Object-oriented-C-/lab07/source/main.cpp",
+  "file": "/workspaces/NBU_Object-oriented-C-/lab07/source/main.cpp"
+},
+{
+  "directory": "/workspaces/NBU_Object-oriented-C-/build",
+  "command": "/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/prog.dir/source/product.cpp.o -c /workspaces/NBU_Object-oriented-C-/lab07/source/product.cpp",
+  "file": "/workspaces/NBU_Object-oriented-C-/lab07/source/product.cpp"
+}
+]
