@@ -3,7 +3,7 @@
 
 class Entry {
 public:
-    Entry(double amt, bool isOutgoing);
+    Entry(double amt, bool isIncoming);
     bool canExecute(double balance) const;
     double getBalanceChange() const;
     double getAmount() const;

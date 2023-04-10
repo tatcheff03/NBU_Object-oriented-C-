@@ -1,31 +1,18 @@
 #include "entry.h"
 #include "account.h"
 
-Entry::Entry(double amount, bool isIncoming) : amount(amount), is_outgoing(!isIncoming), isIncoming(isIncoming) {}
+Entry::Entry(double amount, bool isIncoming) : amount(amount), isIncoming(isIncoming) {}
 
 bool Entry::canExecute(double balance) const {
-    if (is_outgoing) {
-        return false;
-    }
-    else if (isIncoming) {
+    if (isIncoming) {
         return true;
     }
-    return 0;
+    return (amount <= (balance - 10)); 
 }
+
 double Entry::getBalanceChange() const {
-    if (is_outgoing) {
-        return -amount;
+    if (isIncoming) {
+        return amount + 10; 
     }
-    else if (isIncoming) {
-        return amount;
-    }
-    else {
-
-        return false;
-    }
+    return -amount - 10; 
 }
-
-
-
-
-
