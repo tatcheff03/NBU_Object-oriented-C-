@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/prog.dir/src/discount.cpp.o CMakeFiles/prog.dir/src/invoice.cpp.o CMakeFiles/prog.dir/src/item.cpp.o CMakeFiles/prog.dir/src/main.cpp.o CMakeFiles/prog.dir/src/product.cpp.o CMakeFiles/prog.dir/src/textprinter.cpp.o  -o prog 

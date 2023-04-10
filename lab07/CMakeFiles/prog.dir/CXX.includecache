@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/NBU_Object-oriented-C-/lab07/source/invoice.h
+vector
+-
+item.h
+/workspaces/NBU_Object-oriented-C-/lab07/source/item.h
+
+/workspaces/NBU_Object-oriented-C-/lab07/source/item.h
+product.h
+/workspaces/NBU_Object-oriented-C-/lab07/source/product.h
+
+/workspaces/NBU_Object-oriented-C-/lab07/source/main.cpp
+iostream
+-
+iomanip
+-
+invoice.h
+/workspaces/NBU_Object-oriented-C-/lab07/source/invoice.h
+item.h
+/workspaces/NBU_Object-oriented-C-/lab07/source/item.h
+
+/workspaces/NBU_Object-oriented-C-/lab07/source/product.h
+string
+-
+

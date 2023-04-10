@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/prog.dir/source/invoice.cpp.o CMakeFiles/prog.dir/source/item.cpp.o CMakeFiles/prog.dir/source/main.cpp.o CMakeFiles/prog.dir/source/product.cpp.o  -o prog 
