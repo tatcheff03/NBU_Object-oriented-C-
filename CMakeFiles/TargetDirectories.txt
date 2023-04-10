@@ -1,0 +1,3 @@
+/workspaces/NBU_Object-oriented-C-/labtest/CMakeFiles/rebuild_cache.dir
+/workspaces/NBU_Object-oriented-C-/labtest/CMakeFiles/edit_cache.dir
+/workspaces/NBU_Object-oriented-C-/labtest/CMakeFiles/prog.dir
